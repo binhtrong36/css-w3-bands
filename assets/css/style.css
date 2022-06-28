@@ -17,9 +17,24 @@ html {
 
 }
 
-#header .search-icon {
+#header .search-btn {
     float: right;
+    /* line-height: 46.5px; */
+    line-height: 46.5px;
+    padding: 0 21px;
+
 }
+#header .search-btn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+#header .search-icon {
+    color: #fff;
+    /* font-size: 20px; */
+ 
+}
+
 #nav .subnav {
     list-style-type: none;
 }
