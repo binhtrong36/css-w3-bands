@@ -14,7 +14,10 @@ html {
 #header {
     height: 46.5px;
     background-color: black;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #header .search-btn {
@@ -96,6 +99,8 @@ html {
 
 #slide {
     min-height: 500px;
+    margin-top: 46px;
+    background: url(/assets/img/slide/slide_1.jpeg) top center / cover no-repeat;
     /* background-color: #333; */
 
 }
