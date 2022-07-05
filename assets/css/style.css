@@ -98,12 +98,24 @@ html {
 }
 
 #slide {
+    position: relative;
     min-height: 500px;
     margin-top: 46px;
     background: url(/assets/img/slide/slide_1.jpeg) top center / cover no-repeat;
     /* background-color: #333; */
 
 }
+
+#slide .text-content{
+    color: #fff;
+    position: absolute;
+bottom: 0;
+padding-bottom: 47px;
+left: 50%;
+transform: translateX(-50%);
+text-align: center;
+}
+
 #contend {
 
 }
