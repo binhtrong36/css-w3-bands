@@ -111,9 +111,23 @@ html {
     position: absolute;
 bottom: 0;
 padding-bottom: 47px;
-left: 50%;
-transform: translateX(-50%);
+/* left: 50%;
+transform: translateX(-50%); */
+ /* or  dung with : 100% */
+ width: 100%;
 text-align: center;
+}
+
+#slide .text-heading{
+font-weight: 300;
+font-size: 24px;
+
+}
+#slide .text-decription{
+    margin-top: 25px;
+    font-size: 15px;
+
+
 }
 
 #contend {
