@@ -144,14 +144,31 @@ font-size: 24px;
     font-size: 30px;
     font-weight: 500;
     letter-spacing: 4px;
+    margin: 10px 0;
 }
 
 #content .sesson-subheading{
     text-align: center;
     font-size: 15px;
+    margin: 15px;
+    font-style: italic;
+    opacity: 0.6;
 }
 
+#content .about-content{
+margin: 15px 0;
+font-size: 15px;
+text-align: justify;
+line-height: 1.4;
 
+}
+#content .black_color{
+    background-color: #000;
+    color: #fff;
+}
+#content .list_img .img{
+    font-size: ;154px
+}
 #footer {
 
 }
