@@ -1,3 +1,12 @@
+/* fix float left*/
+.clear {
+    clear: both;
+}
+.text-white{
+    color: #ffff !important;
+}
+
+
 /* reset CSS */
 *{
     padding: 0;
@@ -101,7 +110,7 @@ html {
     position: relative;
     min-height: 500px;
     margin-top: 46px;
-    background: url(/assets/img/slide/slide_1.jpeg) top center / cover no-repeat;
+    background: url(/assets/img/slides/slide_1.jpeg) top center / cover no-repeat;
     /* background-color: #333; */
 
 }
@@ -163,12 +172,102 @@ line-height: 1.4;
 
 }
 #content .black_color{
-    background-color: #000;
     color: #fff;
 }
-#content .list_img .img{
-    font-size: ;154px
+#content .list_img{
+    padding: 48px 0;
+    /* overflow: hidden; */
 }
+
+#content .imgname{
+    font-size: 15px;
+  
+    margin: 15px 0;
+}
+
+#content .img-item {
+    float: left;
+    width: 33.333333%;
+    text-align: center;
+}
+
+#content .img{
+    width: 154px;
+    border-radius: 4px;
+}
+
+/* header tour-sesson */
+.tour-sesson{
+  background-color: #000;  
+}
+
+.tour-sesson .list-ticket{
+    background-color: #fff;
+}
+.list-ticket li{
+    list-style: none;
+font-size: 15px;
+padding: 11px 16px;
+border-bottom: 1px solid #ddd;
+color: #75757575;
+}
+.list-ticket .sold-out {
+    background-color: #f44336;
+    color: #ffff;
+    padding: 4px 3px;
+    margin-left: 16px;
+    
+}
+
+.list-ticket .quanlity {
+    float: right;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #ffff;
+    text-align: center;
+    /* margin-top: 2px; */
+    line-height: 24px;
+    margin-top: -2px;
+}
+/* start place */
+.list-places{
+  padding: 32px 0;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.place-item{
+ float: left;
+ width: 33.3333%;
+
+}
+.place-img{
+width: 100%;
+padding: 0 8px;
+}
+
+.place-img:hover{
+    opacity: 0.6;
+}
+.place-body{
+
+}
+.place-header{
+
+}
+.place-time{
+
+}
+.plaec-description{
+
+}
+.buy-ticket-btn{
+
+}
+/* footer place */
+
+/* footer tour-sesson */
 #footer {
 
 }
