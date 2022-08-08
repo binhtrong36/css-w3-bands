@@ -231,6 +231,8 @@ color: #75757575;
     line-height: 24px;
     margin-top: -2px;
 }
+/* footer tour-sesson */
+
 /* start place */
 .list-places{
   padding: 32px 0;
@@ -239,35 +241,89 @@ color: #75757575;
 }
 .place-item{
  float: left;
+ padding: 0 8px;
  width: 33.3333%;
+ font-size: 15px;
+
+
 
 }
 .place-img{
 width: 100%;
-padding: 0 8px;
+
+display: block;
 }
 
 .place-img:hover{
     opacity: 0.6;
 }
 .place-body{
-
+ background-color: #fff;
+ padding: 0.15px 16px;
 }
 .place-header{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.place-header,
+.place-time,
+.plaec-description{
+    margin: 15px 0;
 
 }
 .place-time{
-
+opacity: 0.6;
 }
-.plaec-description{
-
+.place-description{
+    line-height: 1.4;
 }
 .buy-ticket-btn{
+    background-color: #000;
+    color: #fff;
+    padding: 11px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 0;
 
+}
+
+.buy-ticket-btn:hover{
+    color: #000;
+    background-color: #ccc;
 }
 /* footer place */
 
-/* footer tour-sesson */
+/* start modal */
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-container{
+   background: #fff;
+    width: 900px;
+    min-height: 200px;
+}
+.modal-header{
+
+}
+.ti-bag{
+
+}
+.modal-body{
+
+}
+.modal-footer{
+
+}
+/* finished modal */
 #footer {
 
 }
