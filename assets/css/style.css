@@ -43,6 +43,25 @@
     clear: both;
 }
 
+.btn{
+    background-color: #000;
+    color: #fff;
+    padding: 11px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 0;
+    border: none;
+
+}
+
+.btn:hover{
+    color: #000;
+    background-color: #ccc;
+}
+.pull-right{
+    float: right;
+}
+
 /* reset CSS */
 *{
     padding: 0;
@@ -307,20 +326,7 @@ opacity: 0.6;
 .place-description{
     line-height: 1.4;
 }
-.buy-ticket-btn{
-    background-color: #000;
-    color: #fff;
-    padding: 11px 20px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 15px 0;
 
-}
-
-.buy-ticket-btn:hover{
-    color: #000;
-    background-color: #ccc;
-}
 /* footer place */
 
 /* start modal */
@@ -439,21 +445,40 @@ button#buy:hover {
     border: 1px solid #ccc;
     width: 100%;
 }
-.submmit-btn{
-    padding: 10px 15px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    float: right;
-}
-
-.submmit-btn:hover{
-    background-color: #ccc;
-    color: #000;
-    /* color: #fff; */
-    cursor: pointer;
-}
 /* finished modal */
-#footer {
+
+/* begin footer */
+.img-map{
+    width: 100%;   
+}
+
+#footer{
+    text-align: center;
+    padding-bottom: 64px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#footer .socail-lists{
+    font-size: 24px;
+    margin-bottom: 15px;
 
 }
+#footer .socail-lists a{
+    text-decoration: none;
+    color:rgba(0,0,0, 0.6)
+}  
+#footer .scription-foot a:hover,
+#footer .socail-lists a:hover{
+    color:rgba(0,0,0, 0.3)
+
+}
+#footer .scription-foot{
+    font-size: 15px;
+    color:rgba(0,0,0, 0.6)
+}
+#footer .scription-foot a{
+    color:rgba(0,0,0, 0.6)
+}
+
+/* end footer */
