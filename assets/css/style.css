@@ -37,6 +37,10 @@
     margin-top: 16px;
 }
 
+.mt32{
+    margin-top: 32px;
+}
+
 .row::after {
     content: "";
     display: block;
@@ -83,8 +87,15 @@ html {
     top: 0;
     left: 0;
     right: 0;
+
 }
 
+#header .mobile-menu{
+    display: none;
+}
+
+
+#header .mobile-menu,
 #header .search-btn {
     float: right;
     /* line-height: 46.5px; */
@@ -92,11 +103,19 @@ html {
     padding: 0 21px;
 
 }
+
 #header .search-btn:hover{
     background-color: red;
     cursor: pointer;
 }
 
+#header .mobile-menu:hover{
+    background-color:#ccc;
+    cursor: pointer;
+    color: #000;
+}
+
+#header .mobile-menu,
 #header .search-icon {
     color: #fff;
     /* font-size: 20px; */
@@ -105,6 +124,7 @@ html {
 
 #nav .subnav {
     list-style-type: none;
+
 }
 
 #nav {
@@ -163,7 +183,7 @@ html {
 }
 
 #slide {
-    position: relative;
+    /* position: relative; */
     min-height: 500px;
     margin-top: 46px;
     background: url(/assets/img/slides/slide_1.jpeg) top center / cover no-repeat;
@@ -200,10 +220,13 @@ font-size: 24px;
 }
 #content .content-session{
     width: 800px;
+    width: 100%;
     padding: 64px 0;
     margin-left: auto;
     margin-right: auto;
     min-height: 500px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 #content .sesson-heading{
     text-align: center;
@@ -232,7 +255,7 @@ line-height: 1.4;
     color: #fff;
 }
 #content .members-list{
-    padding: 48px 0;
+    padding: 32px 0;
     /* overflow: hidden; */
 }
 
@@ -286,7 +309,7 @@ color: #75757575;
 
 /* start place */
 .places-list{
-  padding: 32px 0
+  padding: 16px 0
 }
 .place-item{
  float: left;
@@ -299,6 +322,7 @@ color: #75757575;
 }
 .place-img{
 width: 100%;
+padding-top: 16px;
 
 display: block;
 }
@@ -455,9 +479,7 @@ button#buy:hover {
 
 #footer{
     text-align: center;
-    padding-bottom: 64px;
-    padding-left: 16px;
-    padding-right: 16px;
+   padding: 64px 16px;
 }
 
 #footer .socail-lists{
